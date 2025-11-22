@@ -1,0 +1,5 @@
+{
+  "name": "FinAnalytics Colombia",
+  "description": "An interactive financial dashboard visualizing USD-COP, Oil, Gold, and Colombian Bonds data. Features automated pattern recognition for market drops and AI-powered historical analysis.",
+  "requestFramePermissions": []
+}
