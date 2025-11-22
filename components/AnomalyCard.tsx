@@ -68,7 +68,7 @@ export const AnomalyCard: React.FC<AnomalyCardProps> = ({ anomaly }) => {
                         {loading ? (
                              <div className="flex items-center gap-2 text-blue-400">
                                 <Loader2 className="w-4 h-4 animate-spin" />
-                                Consultando inteligencia histórica de Gemini...
+                                Consultando inteligencia histórica...
                              </div>
                         ) : analysis ? (
                             <div className="prose prose-invert max-w-none">

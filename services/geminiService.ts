@@ -3,7 +3,7 @@ import { Anomaly } from '../types';
 import { getMetricLabel } from '../utils/dataParser';
 
 export const analyzeAnomaly = async (anomaly: Anomaly, contextData?: string): Promise<string> => {
-    const apiKey = process.env.API_KEY;
+    const apiKey = "AIzaSyBIAcs9grwAF_M0NyF5dwkUSjGlNmMKUFE";
     if (!apiKey) {
         return "Error: API Key not found. Please ensure process.env.API_KEY is set.";
     }

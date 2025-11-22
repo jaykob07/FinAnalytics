@@ -15,7 +15,7 @@ export const Header: React.FC = () => {
                     </div>
                 </div>
                 <div className="hidden md:flex items-center gap-4 text-sm text-gray-400">
-                    <span>Potenciado por <strong className="text-blue-400">Gemini 2.5 Flash</strong></span>
+                    <span>Potenciado por <strong className="text-blue-400">Grupo Analisis Precio del Dolar con Respecto al Peso</strong></span>
                 </div>
             </div>
         </header>

@@ -4,9 +4,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FinAnalytics Colombia</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+
     <style>
-      /* Custom scrollbar for a sleeker look */
       ::-webkit-scrollbar {
         width: 8px;
         height: 8px;
@@ -22,20 +21,12 @@
         background: #6b7280; 
       }
     </style>
-  <script type="importmap">
-{
-  "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
-    "recharts": "https://aistudiocdn.com/recharts@^3.4.1",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
-    "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
-  }
-}
-</script>
-</head>
+  </head>
+
   <body class="bg-gray-900 text-white antialiased selection:bg-blue-500 selection:text-white">
     <div id="root"></div>
+
+    <!-- Este sí va aquí -->
+    <script type="module" src="/index.tsx"></script>
   </body>
 </html>

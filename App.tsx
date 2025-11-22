@@ -10,6 +10,8 @@ import { INITIAL_CSV_DATA } from './constants';
 import { parseCSV, detectAnomalies, getMetricLabel } from './utils/dataParser';
 import { UploadCloud, TrendingDown } from 'lucide-react';
 
+
+
 function App() {
     const [rawData, setRawData] = useState<string>(INITIAL_CSV_DATA);
     const [data, setData] = useState<FinancialDataPoint[]>([]);
